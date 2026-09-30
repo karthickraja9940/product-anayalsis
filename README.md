@@ -1,4 +1,190 @@
-# product-anayalsis# 📊 Product Data Analysis Using Microsoft Excel
+# product-anaya# 📊 Data Analytics – Excel Assignment 2: Data Exploration
+
+## 📌 Project Overview
+
+This project is part of my **Data Analytics learning journey** and focuses on **data cleaning and preparation using Microsoft Excel**.
+
+Real-world datasets often contain missing values, inconsistent formatting, duplicate records, spelling errors, and poorly structured data. In this project, I cleaned and transformed a product dataset to improve its quality and prepare it for further analysis.
+
+### 🎯 Objective
+
+The main objective of this assignment is to develop practical skills in:
+
+* Data cleaning
+* Data preprocessing
+* Data standardization
+* Data transformation
+* Data formatting
+* Data quality improvement
+* Preparing datasets for analysis
+
+---
+
+## 📂 Dataset Information
+
+**Dataset Name:** Product Dataset
+
+### Attributes
+
+| Column       | Description               |
+| ------------ | ------------------------- |
+| Product ID   | Unique product identifier |
+| Product Name | Name of the product       |
+| Brand Name   | Product brand             |
+| Quantity     | Available quantity        |
+| Category     | Product category          |
+| Price        | Product price             |
+
+---
+
+## 🛠️ Tasks Performed
+
+### 1. Handling Missing Values
+
+* Checked the **Price** column for missing values.
+* Identified appropriate approaches for products with missing prices.
+* Checked the **Category** column for missing values.
+* Considered suitable strategies for handling missing categories.
+
+### 2. Correcting Inconsistent Data
+
+* Identified inconsistent text formatting in the **Product Name** column.
+* Identified spelling mistakes and inconsistencies in the **Category** column.
+* Used **Find & Replace** to standardize product names.
+* Corrected category typos and standardized category names.
+
+### 3. Removing Duplicate Records
+
+* Checked the complete dataset for duplicate rows.
+* Removed duplicate records where applicable.
+* Ensured each row represents a unique record.
+
+### 4. Splitting and Merging Data
+
+* Split the **Product ID** into:
+
+  * Manufacturing Date
+  * Country Code
+* Removed unnecessary characters where required.
+* Merged **Brand Name** and **Product Name** into a new column:
+
+  * `Product Brand`
+
+### 5. Number and Date Formatting
+
+* Converted the **Price** column into currency format.
+* Formatted the **Manufacturing Date** as:
+
+`DD-MM-YYYY`
+
+### 6. Conditional Formatting
+
+* Applied **Data Bars / Color Scales** to the Price column.
+* Created a custom conditional formatting rule to highlight:
+
+`Electronics`
+
+in the **Category** column.
+
+---
+
+## 🧰 Excel Skills Used
+
+* Find & Replace
+* Data Cleaning
+* Data Validation
+* Remove Duplicates
+* Text Functions
+
+  * `LEFT()`
+  * `RIGHT()`
+  * `MID()`
+* IF / Conditional Logic
+* Conditional Formatting
+* Data Bars
+* Color Scales
+* Currency Formatting
+* Date Formatting
+* Splitting Columns
+* Merging Columns
+
+---
+
+## 📈 Before and After
+
+### Before Cleaning
+
+The original dataset contained examples of:
+
+* Inconsistent capitalization
+* Category spelling inconsistencies
+* Unstructured Product IDs
+* Different text formats
+* Potential duplicate records
+* Data requiring better formatting
+
+### After Cleaning
+
+The cleaned dataset contains:
+
+* Standardized product names
+* Corrected category values
+* Structured Manufacturing Date
+* Extracted Country Code
+* Combined Product Brand field
+* Proper currency formatting
+* Standardized date formatting
+* Conditional formatting for easier analysis
+
+---
+
+## 📁 Repository Files
+
+```text
+Excel-Assignment-2-Data-Exploration/
+│
+├── Product_Dataset.xlsx
+└── README.md
+```
+
+### `Product_Dataset.xlsx`
+
+Contains the Excel dataset after applying the required data cleaning and preparation techniques.
+
+### `README.md`
+
+Contains the project documentation, objectives, tasks performed, and Excel skills demonstrated.
+
+---
+
+## 🎯 Outcome
+
+This project helped me develop practical experience in **data cleaning and preparation using Microsoft Excel**.
+
+The cleaned dataset is more structured, consistent, readable, and ready for further analysis and visualization.
+
+### Key Learning
+
+> **Clean Data → Better Analysis → Better Insights**
+
+---
+
+## 👨‍💻 About Me
+
+I am an **Aspiring Data Analyst** currently developing my skills in:
+
+* Microsoft Excel
+* Data Cleaning
+* Data Analysis
+* SQL
+* Data Visualization
+* Python
+
+This repository documents my progress and practical projects as I build my **Data Analytics portfolio**.
+
+**Created by: Karthick Raja**
+**Role: Aspiring Data Analyst**
+lsis# 📊 Product Data Analysis Using Microsoft Excel
 
 ## 📌 Project Overview
 
