@@ -1,4 +1,293 @@
-# product-anaya# 📊 Data Analytics – Excel Assignment 2: Data Exploration
+📊 E-Commerce Sales Analysis Dashboard (Excel Project)
+📌 Project Overview
+
+This project demonstrates an end-to-end Data Analytics workflow using Microsoft Excel. The objective was to clean, transform, analyze, and visualize an E-commerce sales dataset while applying fundamental and intermediate Excel data analysis techniques.
+
+The project covers data cleaning, table relationships, formulas, descriptive statistics, Pivot Tables, Pivot Charts, and an interactive dashboard for business decision-making.
+
+🎯 Project Objectives
+Import and organize raw E-commerce data
+Clean and validate inconsistent records
+Handle missing values and duplicates
+Combine related tables using XLOOKUP/VLOOKUP
+Perform descriptive statistical analysis
+Create Pivot Tables for business insights
+Build multiple data visualizations
+Develop an interactive Excel dashboard
+Summarize business findings and recommendations
+🗂 Dataset Information
+
+Dataset Source:
+
+Ecommerce_Sales_Dataset_updated.xlsx
+
+The dataset contains multiple tables:
+
+Fact Table
+Sales_Fact
+Dimension Tables
+Customer_Dim
+Product_Dim
+Store_Dim
+Data Includes
+Customer Information
+Product Information
+Store Information
+Sales Transactions
+Discounts
+Revenue
+Regions
+Payment Methods
+🧹 Data Cleaning & Transformation
+
+The dataset intentionally contained several quality issues that were identified and corrected.
+
+Cleaning Activities Performed
+
+✅ Removed duplicate records
+
+✅ Corrected missing customer names
+
+✅ Standardized text formatting
+
+Examples:
+
+Excel
+=PROPER(TRIM(A2))
+
+✅ Standardized country values
+
+Examples:
+
+USA
+usa
+United States of America
+
+Converted into:
+
+Plain Text
+USA
+
+✅ Fixed inconsistent city names
+
+Examples:
+
+Plain Text
+lake tylerfort
+Lake Tylerfort
+
+✅ Corrected "unknow" values
+
+Converted into:
+
+Plain Text
+Unknown
+
+✅ Validated quantity values
+
+✅ Reviewed missing records
+
+✅ Formatted dates correctly
+
+🔗 Data Integration
+
+Dimension tables were joined with the Sales Fact table using lookup functions.
+
+XLOOKUP Example
+Excel
+=XLOOKUP(
+Customer_ID,
+Customer_Dim!A:A,
+Customer_Dim!B:B,
+"Not Found"
+)
+VLOOKUP Example
+Excel
+=VLOOKUP(
+Store_ID,
+Store_Dim!A:E,
+3,
+FALSE
+)
+
+Additional columns were added:
+
+Customer Name
+Store Name
+Region
+Brand
+City
+🧮 Excel Functions Used
+Aggregation Functions
+Excel
+SUM()
+AVERAGE()
+COUNT()
+MIN()
+MAX()
+Logical Functions
+Excel
+IF()
+COUNTIF()
+Text Functions
+Excel
+TEXT()
+TRIM()
+PROPER()
+CLEAN()
+Lookup Functions
+Excel
+XLOOKUP()
+VLOOKUP()
+📈 Descriptive Statistics
+
+Descriptive statistical analysis was performed on Total Sales.
+
+Metrics calculated:
+
+Statistic	ValueMean	1087.63
+Median	868.72
+Mode	Calculated
+Standard Deviation	820.13
+Minimum	18.46
+Maximum	3908.24
+Total Sales	2,170,907.46
+📊 Pivot Table Analysis
+
+Several Pivot Tables were created to summarize business performance.
+
+Analysis Performed
+1. Regional Sales Analysis
+Region	SalesNorth	645,166.75
+South	635,213.10
+East	619,851.21
+West	270,676.41
+2. Product Performance Analysis
+
+Identified:
+
+Top Selling Products
+Lowest Performing Products
+Product-wise Revenue
+3. Customer Analysis
+Customer purchase behavior
+Loyalty segments
+Repeat customer review
+4. Store Analysis
+Store-wise sales
+Region-wise performance
+Store type comparison
+📉 Visualizations Created
+
+The project includes multiple visualization types:
+
+✅ Column Chart
+
+✅ Bar Chart
+
+✅ Pie Chart
+
+✅ Pivot Charts
+
+✅ KPI Cards
+
+✅ Interactive Slicers
+
+📊 Dashboard Features
+
+The Excel dashboard allows users to interactively explore the data.
+
+Dashboard KPIs
+Total Sales
+Average Sales
+Total Orders
+Regional Sales
+Filters (Slicers)
+Region
+Product Category
+Store
+Customer
+
+Dashboard users can filter visuals dynamically for better business decision-making.
+
+🔍 Key Business Insights
+Regional Performance
+North region generated the highest sales revenue.
+West region generated the lowest sales.
+Customer Data Quality
+A significant number of customer records contained missing names ("not found").
+Data cleaning improved customer identification quality.
+Product Performance
+Several products contributed significantly to total revenue.
+Product-level analysis helps identify revenue-driving items.
+Store Analysis
+Certain stores consistently outperformed others.
+Regional location influences overall sales performance.
+🛠 Tools Used
+Microsoft Excel
+Pivot Tables
+Pivot Charts
+Excel Dashboard
+XLOOKUP
+VLOOKUP
+Statistical Functions
+Data Validation
+Data Cleaning Techniques
+📚 Skills Demonstrated
+Spreadsheet Management
+Data Import
+Data Organization
+Table Creation
+Data Cleaning
+Missing Data Handling
+Duplicate Removal
+Data Validation
+Standardization
+Excel Analytics
+Formulas
+Functions
+Lookups
+Statistics
+Data Visualization
+Charts
+Pivot Charts
+Interactive Dashboards
+Business Analysis
+Sales Analysis
+Customer Analysis
+Store Analysis
+Product Analysis
+✅ Project Outcome
+
+This project demonstrates practical Data Analytics skills using Excel and showcases the ability to transform raw business data into meaningful insights through cleaning, analysis, reporting, and dashboard development.
+
+🔗 Portfolio
+
+This repository is part of my Data Analytics Portfolio where I showcase projects involving:
+
+Excel
+SQL
+Power BI
+Python
+Data Visualization
+Business Intelligence
+Dashboard Development
+
+Author: Your Name
+ Role: Aspiring Data Analyst
+ GitHub: https://github.com/yourusername
+
+💡 Portfolio Tip: Rename the repository to something like:
+
+Plain Text
+ecommerce-sales-analysis-excel-dashboard
+
+or
+
+Plain Text
+excel-ecommerce-sales-dashboard
+
+These names look much stronger on a Data Analyst portfolio than# product-anaya# 📊 Data Analytics – Excel Assignment 2: Data Exploration
 
 ## 📌 Project Overview
 
